@@ -1,0 +1,30 @@
+body{
+    background-color: #1f2833;
+    color: #ffffff;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #66fcf1;
+    text-align: justify;
+}
+
+.intro{
+    font-family: 'Bold', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.quote{
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.note{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
