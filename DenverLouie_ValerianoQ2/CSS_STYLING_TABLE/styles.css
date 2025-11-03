@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+    text-shadow: 1px 1px 2px #fff0f6, 0 0 1px #ad1457;
+    min-height: 100vh;
+    background: linear-gradient(270deg, pink, white, pink);
+    background-size: 600% 600%;
+    animation: gradientMove 8s ease infinite;
+    
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: #fff0f6;
+    box-shadow: grey 5px 5px 10px;
+}
+
+th, td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #f8bbd0;
+    text-align: left;
+    font-size: 1em;
+    color: #222;
+    text-shadow: 1px 1px 2px #fff0f6, 0 0 1px #ad1457;
+}
+
+th {
+    background-color: #ec407a;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px #ad1457, 0 0 2px #fff0f6;
+}
+
+tr:hover {
+    background-color: rgb(255, 223, 233);
+    cursor: pointer;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #ad1457;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #fff0f6, 0 0 2px #ec407a;
+}
